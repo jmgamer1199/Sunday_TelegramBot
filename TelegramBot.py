@@ -2,13 +2,9 @@ import telebot
 import Config
 import serial
 import subprocess
-import sqlite3
 import random
 
 bot = telebot.TeleBot(Config.TOKEN)
-#ser = serial.Serial('COM3', 9600)
-conn = sqlite3.connect(Config.DB)
-#cursor = conn.cursor()
 
                 # -------------------------------------- VARIABLES -------------------------------------- #
 
